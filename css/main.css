@@ -8,7 +8,7 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(to bottom, #fdbfc0, #004683)
+    background: linear-gradient(to bottom, #0f0404, #fff)
 }
 
 .container {
@@ -112,11 +112,34 @@ body {
     font-size: 1.3rem
 }
 
+.form {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.form textarea {
+    width: 700px;
+    height: 100px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
 @media(max-width: 991.5px) {
     .container {
         margin-top: 20px
     }
     .container .row .col-lg-4 {
         margin: 20px 0px
+    }
+    .form {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .form textarea {
+        width: 300px;
+        height: 70px;
     }
 }
